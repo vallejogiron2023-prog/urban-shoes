@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Urban Shoes: catálogo de zapatos para dama y caballero.">
+  <title>Urban Shoes | Tienda de Calzado</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="#inicio" class="logo">URBAN<span>SHOES.</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#dama">Dama</a>
+      <a href="#hombre">Hombre</a>
+      <a href="#nosotros">Nosotros</a>
+    </nav>
+    <a class="header-button" href="#catalogo">Ver zapatos</a>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="subtitle">ESTILO · CALIDAD · COMODIDAD</p>
+        <h1>CAMINA CON<br>TU PROPIO <span>ESTILO.</span></h1>
+        <p>Descubre nuestra colección de calzado y encuentra el estilo que va contigo.</p>
+        <a href="#catalogo" class="main-button">EXPLORAR CATÁLOGO</a>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalogo">
+      <div class="section-heading">
+        <p class="subtitle">NUESTRA COLECCIÓN</p>
+        <h2>CALZADO PARA DAMA Y CABALLERO</h2>
+        <p>Encuentra tu próximo par favorito. Todos los modelos incluyen fotografía y precio.</p>
+      </div>
+
+      <section class="category-section" id="dama">
+        <div class="category-heading">
+          <p class="subtitle">COLECCIÓN DAMA</p>
+          <h2>ZAPATOS PARA DAMA</h2>
+          <p>Diseños casuales y deportivos para darle personalidad a cada paso.</p>
+        </div>
+        <div class="products" id="productos-dama"></div>
+      </section>
+
+      <section class="category-section" id="hombre">
+        <div class="category-heading">
+          <p class="subtitle">COLECCIÓN HOMBRE</p>
+          <h2>ZAPATOS PARA HOMBRE</h2>
+          <p>Descubre nuestra colección de calzado urbano para hombre.</p>
+        </div>
+        <div class="products" id="productos-hombre"></div>
+      </section>
+
+      <p class="catalog-note">Nota: consulta disponibilidad de tallas antes de comprar.</p>
+    </section>
+  </main>
+
+  <footer id="nosotros" class="footer">
+    <p class="footer-logo">URBAN<span>SHOES.</span></p>
+    <p>Estilo, calidad y comodidad en cada paso.</p>
+    <p>© 2026 Urban Shoes. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
